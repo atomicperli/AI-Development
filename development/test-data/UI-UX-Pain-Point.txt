@@ -1,0 +1,35 @@
+[9:00 AM]
+Chloe (UX Lead):
+We're here to review the Q3 customer feedback for the app’s onboarding flow. The data is pointing to two major pain points: **Step 3 abandonment** and high confusion around the **Dashboard metrics**.
+
+[9:01 AM]
+David (Researcher):
+The unmoderated study backs this up. **70% of new users** drop off at 'Step 3: Connect Your First Data Source.' The main complaint in the comments is the lack of clear, context-sensitive help.
+
+[9:02 AM]
+Emily (Designer):
+For Step 3, the current design relies on a generic tooltip. I propose replacing it with a short, **30-second instructional video** right in the modal, and adding an 'Exit to Help Center' link.
+
+[9:03 AM]
+Chloe (UX Lead):
+I like the video idea. David, can we run a **quick A/B test** with the video vs. the old tooltip once Emily finishes the design mockup? We need quantitative data before a full rollout.
+
+[9:04 AM]
+David (Researcher):
+Absolutely. I can launch that A/B test next week, targeting a **10% sample** of new signups.
+
+[9:05 AM]
+Chloe (UX Lead):
+Now, onto the Dashboard metrics. Users are confused by the metric 'Engagement Score.' What do the comments say?
+
+[9:06 AM]
+David (Researcher):
+They universally find it vague. One comment called it a "**meaningless vanity metric**." They want clear, actionable numbers like 'Active Users' or 'Conversion Rate.'
+
+[9:07 AM]
+Emily (Designer):
+We need to simplify. Let’s eliminate 'Engagement Score' and replace it with three highly requested, clearer metrics. I’ll create a simplified **Dashboard v2 mockup** this week for review.
+
+[9:08 AM]
+Chloe (UX Lead):
+Great. Action items: Emily, dashboard redesign mockup and Step 3 video asset. David, prepare the Step 3 A/B test plan. Let's reconvene Friday to review the v2 dashboard design.

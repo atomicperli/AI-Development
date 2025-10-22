@@ -1,0 +1,35 @@
+[11:00 AM]
+Chris (Finance):
+The initial quote for the migration from On-Prem to Cloud-X is **$4.2 million**, which is $800,000 over our approved budget. We need to find areas to cut.
+
+[11:01 AM]
+Danielle (Infrastructure):
+The biggest cost driver is the **data transfer fees**—moving 500 terabytes of cold storage. We budgeted for a standard transfer speed but were quoted for the faster, priority route.
+
+[11:02 AM]
+Chris (Finance):
+Can we use a **slower, non-priority transfer**? The cold storage isn't time-sensitive, is it?
+
+[11:03 AM]
+Danielle (Infrastructure):
+It is not. We can change the data transfer to the standard, slower tier. That immediately shaves off **$350,000** from the quote. That brings us closer.
+
+[11:04 AM]
+Elena (Security):
+I still see a line item for a new, dedicated **WAF (Web Application Firewall)** instance at $150,000. Is the standard WAF bundled with Cloud-X not sufficient for the new environment?
+
+[11:05 AM]
+Danielle (Infrastructure):
+You're right. The standard WAF is sufficient. I had included the dedicated instance as a contingency, but we can stick to the **bundled service**. That's another $150,000 saved.
+
+[11:06 AM]
+Chris (Finance):
+Excellent. That brings us down to **$3.7 million**, which is still over. What about the project timeline? Can we extend it from 4 months to 6 months to reduce the consulting hours?
+
+[11:07 AM]
+Danielle (Infrastructure):
+Extending the timeline by two months would save us approximately **$200,000 in specialized consulting fees**. I can manage that without impacting business operations.
+
+[11:08 AM]
+Chris (Finance):
+Perfect. $4.2M minus $350K (transfer) minus $150K (WAF) minus $200K (consulting) equals **$3.5 million**. That is under budget. Danielle, update the SOW with the slower transfer and the 6-month timeline. We are approved.

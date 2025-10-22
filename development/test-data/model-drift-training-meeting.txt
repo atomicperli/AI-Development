@@ -1,0 +1,31 @@
+[1:15 PM]
+Dr. Kim (Data Scientist):
+The monthly monitoring report confirms significant **model drift** in the Fraud Detection model (FDM-2.1). The false positive rate jumped from 3% to nearly 8% in the last week.
+
+[1:16 PM]
+Leo (ML Ops):
+The drift correlates directly with the new marketing campaign in the EMEA region. We're seeing **feature skew** on the 'transaction_country' input. The model wasn't trained on the new distribution.
+
+[1:17 PM]
+Dr. Kim (Data Scientist):
+Exactly. We need to decide on a retraining strategy. Should we retrain FDM-2.1 with the new data, or build FDM-3.0 with a new architecture?
+
+[1:18 PM]
+Maya (Business Stakeholder):
+From a business perspective, we cannot sustain an 8% false positive rate; it’s blocking too many legitimate transactions. We need a solution deployed within **one week**.
+
+[1:19 PM]
+Leo (ML Ops):
+Given the time constraint, a full architectural overhaul (FDM-3.0) is out. We should focus on **retraining FDM-2.1** using the last three months of data, including the new EMEA transactions.
+
+[1:20 PM]
+Dr. Kim (Data Scientist):
+I can prep and clean the new dataset by the end of tomorrow. I'll use a **Rolling Window Retraining** approach to keep the model fresh.
+
+[1:21 PM]
+Leo (ML Ops):
+I will set up the automated pipeline for the retraining job. We should also implement a **shadow deployment** where the retrained model runs passively next to the live one for 48 hours to validate the false positive rate before we cut over traffic.
+
+[1:22 PM]
+Maya (Business Stakeholder):
+That sounds like a responsible approach. Dr. Kim, keep me updated on the false positive rate in the shadow environment.
